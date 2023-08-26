@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lifecycle.inc.xphoto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.XPhoto">
+        <activity
+            android:name=".display_activity"
+            android:exported="false" />
+        <activity
+            android:name=".about_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Wallpaper_activity"
+            android:exported="false" />
+        <activity
+            android:name=".video_activity"
+            android:exported="false" />
+        <activity
+            android:name=".open_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sexy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".model_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
